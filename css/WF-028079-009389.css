@@ -1,0 +1,24 @@
+/*
+* Webfonts served by typotheque.com
+*
+* To make the font files as small as possible,
+* most glyphs and OpenType features were removed.
+* To edit the fonts, add more language support,
+* log it to your Typotheque account:
+* http://www.typotheque.com/my_account/webfonts
+*
+* The Typotheque Font Software is protected under domestic
+* and international trademark and copyright law.
+* Modifying, reverse engineering or otherwise copying
+* of Typotheque Font Software is illegal.
+* http://www.typotheque.com/licensing/
+*
+* (c) 2016, Typotheque
+* Generated: 2016-06-15 14:19:44
+*/
+
+@font-face {
+	font-family: "Lumin Light";
+	src: url("https://s3.amazonaws.com/fonts.typotheque.com/WF-028079-009389-001189-c25050a35a69fac29770facf3c6e37e8.eot");
+	src: url("https://s3.amazonaws.com/fonts.typotheque.com/WF-028079-009389-001189-c25050a35a69fac29770facf3c6e37e8.eot?#iefix") format("embedded-opentype"), url("https://s3.amazonaws.com/fonts.typotheque.com/WF-028079-009389-001189-c25050a35a69fac29770facf3c6e37e8.woff2") format("woff2"), url("https://s3.amazonaws.com/fonts.typotheque.com/WF-028079-009389-001189-c25050a35a69fac29770facf3c6e37e8.woff") format("woff"), url("https://s3.amazonaws.com/fonts.typotheque.com/WF-028079-009389-001189-c25050a35a69fac29770facf3c6e37e8.svg#Typotheque_webfonts_service") format("svg");
+}
