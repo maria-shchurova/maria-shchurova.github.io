@@ -35,3 +35,5 @@ gem "github-pages", "~> 227"
 gem "webrick", "~> 1.7"
 
 gem "midnight", "~> 1.0"
+
+gem "github-pages", group: :jekyll_plugins
