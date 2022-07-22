@@ -21,8 +21,8 @@
 title: Maria Shchurova
 email: mary.shchurova@gmail.com
 description: Technical Game Designer
-baseurl: /blog/ # the subpath of your site, e.g. /blog
-url: https://maria-shchurova.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  maria-shchurova
 
 # Build settings
