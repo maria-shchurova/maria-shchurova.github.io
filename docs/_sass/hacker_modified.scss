@@ -41,6 +41,11 @@ body {
   word-spacing: 10px;
 }
 
+.image-description-grid{
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
 section {
   display: block;
   margin: 0 0 20px 0;
