@@ -31,7 +31,7 @@ jobs:
     - name: Setup User
       uses: fregante/setup-git-user@v2
 
-      name: Deploy
+    - name: Deploy
       run: |
         git remote set-url origin https://${github_token}@github.com/${repository}
         npm run deploy
