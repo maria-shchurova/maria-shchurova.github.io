@@ -29,14 +29,11 @@ jobs:
       run: npm run build
       
     - name: Deploy
+    - uses: fregante/setup-git-user@v2
       run: |
-        git config --global user.name $maria-shchurova
-        git config --global user.email $mary.shchurova@gmail.com
         git remote set-url origin https://${github_token}@github.com/${repository}
         npm run deploy
       env:
-        user_name: 'github-actions[bot]'
-        user_email: 'mary.shchurova@gmail.com'
         github_token: ${{ secrets.SECRET_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
 
