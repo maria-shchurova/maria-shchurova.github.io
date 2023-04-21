@@ -4,10 +4,6 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='footer-container'>
-        
-          <div class='footer-logo'>
-          </div>
-          <small class='website-rights'>maria shchurova © 2023</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link '
@@ -34,6 +30,7 @@ function Footer() {
               <i class='fab fa-linkedin' />
             </Link>
           </div>
+          <small class='website-rights'>maria shchurova © 2023</small>
         </div>
   )
 }
