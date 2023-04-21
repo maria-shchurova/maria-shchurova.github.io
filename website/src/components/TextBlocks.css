@@ -1,0 +1,36 @@
+    
+  .text-block-container{
+    display: grid;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    row-gap: 15px;
+    padding: 1em;
+  }
+  
+  .text-block
+  {
+    padding: 2rem;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    place-self: center;
+  }
+  
+  .map-block
+  {
+    padding: 2rem;
+    max-width: 2120px;
+    width: 150%;
+    margin: 0 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    place-self: center;
+  }
+
+  
