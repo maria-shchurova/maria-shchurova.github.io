@@ -29,12 +29,12 @@ function Dust() {
                 events: {
                   onHover: {
                     enable: true, // enables the hover event
-                    mode: "repulse", // make the particles run away from the cursor
+                    mode: "attract", // make the particles run away from the cursor
                   },
                 },
                 modes: {
                   repulse: {
-                    distance: 40, // distance of the particles from the cursor
+                    distance: 90, // distance of the particles from the cursor
                   },
                 },
               },
@@ -48,7 +48,7 @@ function Dust() {
                   area: 1080
                 },
                 limit: 0,
-                value: 500,
+                value: 250,
               },
               opacity: {
                 animation: {
