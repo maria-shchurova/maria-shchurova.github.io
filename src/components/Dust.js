@@ -1,7 +1,8 @@
 import React from "react"
 import Particles from 'react-tsparticles'
 import { loadFull } from "tsparticles";
- 
+import "../App.css"
+
 function Dust() {
   const particlesInit = async (main) => {
     console.log(main);
@@ -16,26 +17,30 @@ function Dust() {
     console.log(container);
   };
   return (
-    <div className="App">
+    <div className="dust-container">
    
      <Particles
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
               options={{
-            background: {
-              color: '#000000',
-            },
             fpsLimit: 40,
             interactivity: {
-              detectsOn: 'canvas',
-              events: {
-                resize: true
+                events: {
+                  onHover: {
+                    enable: true, // enables the hover event
+                    mode: "repulse", // make the particles run away from the cursor
+                  },
+                },
+                modes: {
+                  repulse: {
+                    distance: 40, // distance of the particles from the cursor
+                  },
+                },
               },
-            },
             particles: {
               color: {
-                value: "#f1f1f1"
+                value: "#c4c4c4"
               },
               number: {
                 density: {
@@ -68,7 +73,11 @@ function Dust() {
                   minimumValue: 0.5
                 },
                 value: 1
-              }
+              },
+              move: {
+                enable: true, // enabling this will make particles move in the canvas
+                speed: { min: 0.05, max: 0.5 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
+              },
             }
           }}
       />  
