@@ -1,7 +1,7 @@
 import React from "react"
 import Particles from 'react-tsparticles'
 import { loadFull } from "tsparticles";
-import "./Dust.css"
+import "../App.css"
 
 function Dust() {
   const particlesInit = async (main) => {
@@ -17,7 +17,8 @@ function Dust() {
     console.log(container);
   };
   return (
-    <div className="dust">   
+    <div className="dust-container">
+   
      <Particles
           id="tsparticles"
           init={particlesInit}
