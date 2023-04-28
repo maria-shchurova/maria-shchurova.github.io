@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Button } from './Button' 
 
 function CardItem(props) {
   return (
@@ -8,6 +9,11 @@ function CardItem(props) {
         <Link className='cards__item__link' to={props.path}>
             <figure className='cards__item__pic-wrap'>
                 <img src={props.src} alt="someImage" className='cards__item__img'></img>
+                <div className='gradient'></div>
+                <div className='card-body'>
+                  <h1 className='card-title'>{props.title}</h1>
+                  <p className='card-info'>{props.info}</p>
+                </div>
             </figure>
         </Link>
     </li>

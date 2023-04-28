@@ -1,17 +1,12 @@
 .cards {
-    padding: 2rem;
-    background: #fff;
+    padding: 5em;
   }
   
-  h1 {
-    text-align: center;
-  }
   
   .cards__container {
-    display: grid;
+    justify-content: center;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
     margin: 0 auto;
   }
   
@@ -20,15 +15,10 @@
     margin: 55px 0 45px;
   }
   
-  .cards__items {
-    margin-bottom: 24px;
-  }
-  
   .cards__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
-    border-radius: 10px;
   }
   
   .cards__item__link {
@@ -40,15 +30,12 @@
   }
   
   .cards__item__pic-wrap {
-    position: relative;
+    height: 28rem;
     width: 100%;
+    object-fit: cover;
+    position: relative;
     padding-top: 67%;
     overflow: hidden;
-  }
-  
-  .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
   }
   
   .cards__item__img {
@@ -65,25 +52,48 @@
     object-fit: cover;
     transition: all 0.2s linear;
   }
-  
-  .cards__item__img:hover {
-    transform: scale(1.1);
+  .gradient{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:5;
+    height:100%;
+    width:100%;
+    /* http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+50,0.5+100 */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+  .card-body{
+    width: 100%;    
+    height: 40%;
+    bottom: -100%;
+    position: absolute;
+    background: linear-gradient(#ffffff00, #000000);
+    backdrop-filter: blur(5px);
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: 0 0 200px rgba(0,0,0,0.5) inset;
   }
-  
-  .cards__item__info {
-    padding: 20px 30px 30px;
+
+  .card-title{
+    background: none;
+    text-transform: uppercase;
   }
-  
-  .cards__item__text {
-    color: #252e48;
-    font-size: 18px;
-    line-height: 24px;
+
+  .card-info{
+    background: none;
+    line-height: 1.5rem;
+    margin: 20px 0;
   }
-  
-  @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      width: 84%;
-    }
+
+  .cards__item:hover .card-body {
+    bottom: 0; 
   }
   
   @media only screen and (min-width: 1024px) {

@@ -16,40 +16,25 @@ function Cards() {
                 <ul className='cards__items'>
                     <CardItem 
                     src={image1}
-                    text="After All"
+                    title="After All"
+                    info="A point and click adventure game about going through a breakup."
                     path="https://firewalkwithme.itch.io/after-all"
                     />
                     <CardItem 
                     src={image2}
-                    text="Breath Of Life"
+                    title="Breath Of Life"
+                    info="Simulation experiment. Prodedurally growng plants overtake abandoned buildings."
                     path={"https://firewalkwithme.itch.io/breath-of-life"}
                     />
                     <CardItem 
                     src={image3}
-                    text="For Rent"
+                    title="For Rent"
+                    info="First-person horror game about a rented soviet flat."
                     path="https://firewalkwithme.itch.io/for-rent"
                     />
                 </ul>           
             </div>
-            <div className='cards__wrapper'>
-                <ul className='cards__items'>
-                    <CardItem 
-                    src={image1}
-                    text="After All"
-                    path="https://firewalkwithme.itch.io/after-all"
-                    />
-                    <CardItem 
-                    src={image2}
-                    text="Breath Of Life"
-                    path={"https://firewalkwithme.itch.io/breath-of-life"}
-                    />
-                    <CardItem 
-                    src={image3}
-                    text="For Rent"
-                    path="https://firewalkwithme.itch.io/for-rent"
-                    />
-                </ul>           
-            </div>
+            
         </div>
     </div>
   )
