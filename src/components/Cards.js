@@ -5,7 +5,7 @@ import "./Card.css"
 //todo deal with images better
 import image1 from "../../src/assets/images/GameCovers/AfterAll.png"
 import image2 from "../../src/assets/images/GameCovers/BreathOfLife.png"
-import image3 from "../../src/assets/images/GameCovers/ForRent.png"
+import image3 from "../../src/assets/images/GameCovers/ForRent.jpg"
 
 function Cards() {
   return (
