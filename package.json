@@ -1,7 +1,7 @@
 {
   "name": "firewalkwithme-website",
   "version": "0.1.0",
-  "homepage": "http://maria-shchurova.github.io",
+  "homepage": "https://maria-shchurova.github.io/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.65.5",
