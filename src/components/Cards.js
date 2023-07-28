@@ -42,7 +42,7 @@ function Cards() {
                 <ul className='cards__items'>
                     <CardItem 
                     src={image4}
-                    title="After All"
+                    title="Elkridge"
                     info="A point and click adventure game about going through a breakup."
                     path="https://firewalkwithme.itch.io/after-all"
                     />
