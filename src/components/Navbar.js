@@ -30,7 +30,8 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div class="navbar-logo">
-                 ...under construction...it drives me fucking insane
+                 <p1>Maria (firewalk) Shchurova</p1><br></br>
+                 <p2>game design and software development</p2>
                 </div> 
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} /> 

@@ -6,7 +6,10 @@ import "./Card.css"
 import image1 from "../../src/assets/images/GameCovers/AfterAll.png"
 import image2 from "../../src/assets/images/GameCovers/BreathOfLife.png"
 import image3 from "../../src/assets/images/GameCovers/ForRent.jpg"
-import image4 from "../../src/assets/images/GameCovers/Elkridge.png"
+
+import image5 from "../../src/assets/images/Art/befreie mich.png"
+import image6 from "../../src/assets/images/Art/photography/Katya.jpg"
+import image7 from "../../src/assets/images/Art/framed.jpg"
 
 function Cards() {
   return (
@@ -41,22 +44,22 @@ function Cards() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem 
-                    src={image4}
-                    title="Elkridge"
-                    info="A point and click adventure game about going through a breakup."
-                    path="https://firewalkwithme.itch.io/after-all"
+                    src={image5}
+                    title="Befreie Mich"
+                    info="Heartbreak story triptich. Acrylic on canvas, 2020-2021"
+                    path="/triptich"
                     />
                     <CardItem 
-                    src={image4}
-                    title="Breath Of Life"
-                    info="Simulation experiment. Prodedurally growng plants overtake abandoned buildings."
-                    path={"https://firewalkwithme.itch.io/breath-of-life"}
+                    src={image6}
+                    title="Photography projects"
+                    info="Collections of my photographs 2018-2020."
+                    path={"/Photographs"}
                     />
                     <CardItem 
-                    src={image4}
-                    title="For Rent"
-                    info="First-person horror game about a rented soviet flat."
-                    path="https://firewalkwithme.itch.io/for-rent"
+                    src={image7}
+                    title="Touch"
+                    info="Painting, acrylic on canvas, 2020"
+                    path="/Touch"
                     />
                 </ul>           
             </div>

@@ -70,9 +70,9 @@ function Dust() {
               size: {
                 random: {
                   enable: true,
-                  minimumValue: 0.5
+                  minimumValue: 0.8
                 },
-                value: 1
+                value: 1.2
               },
               move: {
                 enable: true, // enabling this will make particles move in the canvas
