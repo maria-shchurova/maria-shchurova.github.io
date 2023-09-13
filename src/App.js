@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Triptich from './components/pages/Triptich';
+import Touch from './components/pages/Touch';
 import Dust from './components/Dust'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/triptich' element={<Triptich />} />
+        <Route path='/touch' element={<Touch />} />
       </Routes>
      
     </>

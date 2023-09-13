@@ -6,6 +6,7 @@ import "./Card.css"
 import image1 from "../../src/assets/images/GameCovers/AfterAll.png"
 import image2 from "../../src/assets/images/GameCovers/BreathOfLife.png"
 import image3 from "../../src/assets/images/GameCovers/ForRent.jpg"
+import image8 from "../../src/assets/images/GameCovers/Elkridge.png"
 
 import image5 from "../../src/assets/images/Art/befreie mich.png"
 import image6 from "../../src/assets/images/Art/photography/Katya.jpg"
@@ -23,6 +24,12 @@ function Cards() {
                     title="After All"
                     info="A point and click adventure game about going through a breakup."
                     path="https://firewalkwithme.itch.io/after-all"
+                    />
+                    <CardItem 
+                    src={image8}
+                    title="Elkridge"
+                    info="Prototype of a life simulator with AI-powered characters."
+                    path="https://firewalkwithme.itch.io/elkridge"
                     />
                     <CardItem 
                     src={image2}
@@ -59,7 +66,7 @@ function Cards() {
                     src={image7}
                     title="Touch"
                     info="Painting, acrylic on canvas, 2020"
-                    path="/Touch"
+                    path="/touch"
                     />
                 </ul>           
             </div>
