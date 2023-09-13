@@ -107,3 +107,31 @@
       margin-bottom: 2rem;
     }
   }
+
+
+  .painting-cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 2rem;
+  }
+
+  .painting-cards__item__pic-wrap {
+    height: 50rem;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+
+  .painting-cards__container {
+    justify-content: center;
+    align-items: center;
+    max-width: 1980px;
+    margin: 0 auto;
+  }
+  
+  .painting-cards__wrapper {
+    position: relative;
+    margin: 85px 0 45px;
+  }

@@ -1,0 +1,22 @@
+.triptich_cards
+{
+    padding: 5em;
+}
+
+.triptich-cards__container {
+    justify-content: center;
+    align-items: center;
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  
+  .triptich-cards__wrapper {
+    position: relative;
+    margin: 55px 0 45px;
+  }
+  
+  .triptich-cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+  }
