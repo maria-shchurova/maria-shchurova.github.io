@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ead1e23f.css",
-    "main.js": "/static/js/main.a293e22e.js",
+    "main.css": "/static/css/main.68079b6a.css",
+    "main.js": "/static/js/main.5308fae9.js",
     "static/media/AfterAll.png": "/static/media/AfterAll.9780c76ee54c68b70e28.png",
     "static/media/Elkridge.png": "/static/media/Elkridge.868547ea78d4bb2b2ad5.png",
-    "static/media/triptich.png": "/static/media/triptich.6a4b1b36474f523d4f7e.png",
     "static/media/Katya.jpg": "/static/media/Katya.6f6313be29c0625b481b.jpg",
+    "static/media/breaking the stone.png": "/static/media/breaking the stone.8c2268debec29f729b4f.png",
     "static/media/BreathOfLife.png": "/static/media/BreathOfLife.c7fa1ee0105057efc8a7.png",
+    "static/media/choked.png": "/static/media/choked.90df90137f6d7e77ea7f.png",
     "static/media/befreie mich.png": "/static/media/befreie mich.fed34b95b3dbee1aaea2.png",
     "static/media/framed.jpg": "/static/media/framed.fd62379f267696e8d481.jpg",
+    "static/media/key1.jpg": "/static/media/key1.f79189abc377ad4d9300.jpg",
+    "static/media/stone1.jpg": "/static/media/stone1.1ebcb1e0d4968f80c969.jpg",
     "static/media/hands.jpg": "/static/media/hands.73e87ae529069ae057c3.jpg",
+    "static/media/choke1.jpg": "/static/media/choke1.51344921a067d00da85f.jpg",
     "static/media/ForRent.jpg": "/static/media/ForRent.31b6daa8dcf7a92533f7.jpg",
     "index.html": "/index.html",
-    "main.ead1e23f.css.map": "/static/css/main.ead1e23f.css.map",
-    "main.a293e22e.js.map": "/static/js/main.a293e22e.js.map"
+    "main.68079b6a.css.map": "/static/css/main.68079b6a.css.map",
+    "main.5308fae9.js.map": "/static/js/main.5308fae9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ead1e23f.css",
-    "static/js/main.a293e22e.js"
+    "static/css/main.68079b6a.css",
+    "static/js/main.5308fae9.js"
   ]
 }
