@@ -1,8 +1,11 @@
 .cards {
-    padding: 5em;
-  }
-  
-  
+}
+
+.cards h1 {
+  padding: 1.5 rem;
+  color: white;
+  text-align: center;
+}
   .cards__container {
     justify-content: center;
     align-items: center;

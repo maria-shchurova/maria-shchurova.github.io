@@ -17,6 +17,8 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
+    line-height: 0.75; 
+    text-align: center;
   }
   
   .navbar-logo {
@@ -28,12 +30,17 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    p1 {
+    h1 {
       font-size: 1.5rem;
       background-color: transparent;
     }
-    p2 {
+    h4 {
       font-size: 1rem;
+      background-color: transparent;
+    }
+
+    h6 {
+      font-size: 0.2 rem;
       background-color: transparent;
     }
   }

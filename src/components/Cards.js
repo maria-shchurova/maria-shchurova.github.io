@@ -3,21 +3,54 @@ import CardItem from './CardItem'
 import "./Card.css"
 
 //todo deal with images better
+import image9 from "../../src/assets/images/links/github.png"
+import image10 from "../../src/assets/images/links/linked.png"
+import image11 from "../../src/assets/images/links/cv.png"
+
+
 import image1 from "../../src/assets/images/GameCovers/AfterAll.png"
 import image2 from "../../src/assets/images/GameCovers/BreathOfLife.png"
 import image3 from "../../src/assets/images/GameCovers/ForRent.jpg"
 import image8 from "../../src/assets/images/GameCovers/Elkridge.png"
 
-import image5 from "../../src/assets/images/Art/befreie mich.png"
-import image6 from "../../src/assets/images/Art/photography/Katya.jpg"
 import image7 from "../../src/assets/images/Art/framed.jpg"
+
+import imageDevolution from "../../src/assets/images/Art/Devolution.jpg"
+import imageSketchfab from "../../src/assets/images/Art/Lighthouse render.png"
 
 function Cards() {
   return (
     <div className='cards'>
-        <h1>My Games</h1>
         <div className='cards__container'>
             <div className='cards__wrapper'>
+            <h1>Links</h1>
+                <ul className='cards__items'>
+                    <CardItem 
+                    src={image9}
+                    title="GitHub"
+                    info=" "
+                    path="https://github.com/maria-shchurova"
+                    />
+                    <CardItem 
+                    src={image10}
+                    title="LinkedIn"
+                    info=" "
+                    path="https://www.linkedin.com/in/maria-shchurova-754a001a3/"
+                    />
+                    <CardItem 
+                    src={image11}
+                    title="CV"
+                    info="last update: 04.2023"
+                    path="/CV"
+                    />
+                </ul>           
+            </div>
+            
+        </div>
+
+        <div className='cards__container'>
+            <div className='cards__wrapper'>
+            <h1>Game Projects</h1>
                 <ul className='cards__items'>
                     <CardItem 
                     src={image1}
@@ -44,33 +77,32 @@ function Cards() {
                     path="https://firewalkwithme.itch.io/for-rent"
                     />
                 </ul>           
-            </div>
-            
+            </div>            
         </div>
         <div className='cards__container'>
             <div className='cards__wrapper'>
+            <h1>Other Projects</h1>
                 <ul className='cards__items'>
                     <CardItem 
-                    src={image5}
-                    title="Befreie Mich"
-                    info="Heartbreak story triptich. Acrylic on canvas, 2020-2021"
-                    path="/triptich"
-                    />
-                    <CardItem 
-                    src={image6}
-                    title="Photography projects"
-                    info="Collections of my photographs 2018-2020."
-                    path={"/Photographs"}
+                    src={imageDevolution}
+                    title="DEVolution 7"
+                    info="Website for Devolution #7 exhibition at A.MAZE 2023"
+                    path="https://csongorb.github.io/devolution7/"
                     />
                     <CardItem 
                     src={image7}
-                    title="Touch"
-                    info="Painting, acrylic on canvas, 2020"
-                    path="/touch"
+                    title="Paintings"
+                    info="Once in a blue moon..."
+                    path="/triptich"
+                    />
+                    <CardItem 
+                    src={imageSketchfab}
+                    title="Sketchfab profile"
+                    info="my milestones in 3D modelling"
+                    path="https://sketchfab.com/mary.shchurova"
                     />
                 </ul>           
-            </div>
-            
+            </div>            
         </div>
     </div>
   )
