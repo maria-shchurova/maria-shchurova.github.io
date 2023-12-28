@@ -6,7 +6,7 @@ import "./Card.css"
 import image9 from "../../src/assets/images/links/github.png"
 import image10 from "../../src/assets/images/links/linked.png"
 import image11 from "../../src/assets/images/links/cv.png"
-
+import gd_image from "../../src/assets/images/links/gd.png"
 
 import image1 from "../../src/assets/images/GameCovers/AfterAll.png"
 import image2 from "../../src/assets/images/GameCovers/BreathOfLife.png"
@@ -23,7 +23,7 @@ function Cards() {
     <div className='cards'>
         <div className='cards__container'>
             <div className='cards__wrapper'>
-            <h1>Links</h1>
+            <h1>Links and Files</h1>
                 <ul className='cards__items'>
                     <CardItem 
                     src={image9}
@@ -42,6 +42,12 @@ function Cards() {
                     title="CV"
                     info="last update: 04.2023"
                     path="/CV"
+                    />
+                    <CardItem 
+                    src={gd_image}
+                    title="GD journals"
+                    info="examples of game development log and process books"
+                    path="/Journals"
                     />
                 </ul>           
             </div>

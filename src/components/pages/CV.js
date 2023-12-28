@@ -19,6 +19,7 @@ function CV()
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
+                zIndex: '1'
               }}
               href={PDF_CV}
               download="CV_NEW_2024.pdf"

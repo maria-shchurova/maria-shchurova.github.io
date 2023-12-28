@@ -7,6 +7,7 @@ import Triptich from './components/pages/Triptich';
 import Touch from './components/pages/Touch';
 import Dust from './components/Dust'
 import CV from './components/pages/CV';
+import Journals from './components/pages/Journals';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/triptich' element={<Triptich />} />
         <Route path='/CV' element={<CV />} />
+        <Route path='/Journals' element={<Journals />} />
         <Route path='/touch' element={<Touch />} />
       </Routes>
      

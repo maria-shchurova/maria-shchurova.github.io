@@ -9,7 +9,7 @@
   .cards__container {
     justify-content: center;
     align-items: center;
-    max-width: 1120px;
+    max-width: 1420px;
     margin: 0 auto;
   }
   
@@ -33,7 +33,7 @@
   }
   
   .cards__item__pic-wrap {
-    height: 28rem;
+    height: 24rem;
     width: 100%;
     object-fit: cover;
     position: relative;
