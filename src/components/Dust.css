@@ -1,5 +1,7 @@
-
 .dust-container {
+  position: fixed; /* Use fixed positioning */
+  top: 0;
+  left: 0;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -8,5 +10,5 @@
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
-  z-index: -200;
+  z-index: -1; /* Set a negative z-index */
 }

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {Link} from "react-router-dom"
 import './Navbar.css';
 
-function Navbar() {
+function Navbar({ visitCount }) {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
@@ -32,7 +32,7 @@ function Navbar() {
                 <div className="navbar-logo">
                  <h1>Maria (firewalk) Shchurova</h1><br></br>
                  <h4>game design and software development</h4><br></br>
-                 <h6>NOT a web designer obviously</h6>
+                 <h6>NOT a web designer obviously</h6> 
                 </div> 
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? "fas fa-times" : "fas fa-bars"} /> 
@@ -42,8 +42,11 @@ function Navbar() {
                         <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
-                    </li>
-                </ul>
+                    </li>   
+                </ul>    
+                <div className='right-corner'>
+                    <h6>You are the visitor #{visitCount}</h6>
+                </div>          
             </div>
         </nav>
     </>

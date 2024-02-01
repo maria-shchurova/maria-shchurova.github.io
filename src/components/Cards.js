@@ -11,7 +11,7 @@ import gd_image from "../../src/assets/images/links/gd.png"
 import image1 from "../../src/assets/images/GameCovers/AfterAll.png"
 import image2 from "../../src/assets/images/GameCovers/BreathOfLife.png"
 import image3 from "../../src/assets/images/GameCovers/ForRent.jpg"
-import image8 from "../../src/assets/images/GameCovers/Elkridge.png"
+import image8 from "../../src/assets/images/GameCovers/DimensionShift.png"
 
 import image7 from "../../src/assets/images/Art/framed.jpg"
 
@@ -66,9 +66,9 @@ function Cards() {
                     />
                     <CardItem 
                     src={image8}
-                    title="Elkridge"
-                    info="Prototype of a life simulator with AI-powered characters."
-                    path="https://firewalkwithme.itch.io/elkridge"
+                    title="Dimension Shifter"
+                    info="A puzzle-platformer game where you can shift between a 3D and 2D environment."
+                    path="https://cerys-an-craite.itch.io/dimension-shifter"
                     />
                     <CardItem 
                     src={image2}
