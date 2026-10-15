@@ -7,10 +7,6 @@ import triptichImage3 from "../../../src/assets/images/Art/breaking the stone.pn
 import PaintingCardItem from "../../../src/components/PaintingCardItem"
 import "../../../src/components/Card.css"
 
-import progressCover1 from "../../../src/assets/images/Art/process/choke1.jpg"
-import progressCover2 from "../../../src/assets/images/Art/process/key1.jpg"
-import progressCover3 from "../../../src/assets/images/Art/process/stone1.jpg"
-
 function Triptich()
 {
     return(
