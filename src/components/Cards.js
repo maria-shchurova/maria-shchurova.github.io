@@ -29,7 +29,7 @@ function Cards() {
                     src={image9}
                     title="GitHub"
                     info=" "
-                    path="https://github.com/maria-shchurova"
+                    path="https://github.com/firewalk-withme"
                     />
                     <CardItem 
                     src={image10}
