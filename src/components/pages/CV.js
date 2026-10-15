@@ -1,7 +1,7 @@
 import React from "react";
 import '../../App.css';
 import CVasImage from "../../../src/assets/images/links/as _image.png"
-import PDF_CV from '../../../src/assets/CV_NEW_2024.pdf';
+import PDF_CV from '../../../src/assets/CV_2026_DE.pdf';
 function CV()
 {
     return (
